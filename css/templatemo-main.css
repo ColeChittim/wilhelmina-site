@@ -152,6 +152,7 @@ h1{
 .baner-content {
   padding-top: 30vh;
   text-align: center;
+  background-image: url('../img/flowers2darkmode.png');
 }
 
 .baner-content h1 {
@@ -159,7 +160,6 @@ h1{
   font-size: 128px;
   font-family: vogueregular;
   color: #fff;
-  font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
@@ -180,6 +180,40 @@ h1{
 
 .baner-content .primary-button {
   margin-top: 15px;
+}
+
+.baner-content {
+  text-align: center;
+}
+
+.baner-content ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.baner-content ul li {
+  display: inline-block;
+  margin: 0px 4px;
+}
+
+.baner-content ul li a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-size: 17px;
+}
+
+.baner-content ul li a:hover {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 h4, .h4 {
@@ -242,8 +276,7 @@ h4, .h4 {
 }
 
 
-section {
-  background-color: transparent;
+.section {
   padding-bottom: 15px;
 }
 
@@ -257,10 +290,14 @@ section {
   margin: 10px;
 }
 
-.clearfix:after {
-  content:"";
-  display:table;
-  clear:both;
+.press-kit-content img{
+  padding: 30px;
+  width: 80%;
+}
+
+.press-kit-content h2{
+  padding-top: 50%;
+  font-size: 32px;
 }
 
 footer {

@@ -976,7 +976,7 @@ if (typeof Object.create !== "function") {
 
                 if ((base.newRelativeX > 8 || base.newRelativeX < -8) && (base.browser.isTouch === true)) {
                     if (ev.preventDefault !== undefined) {
-                        ev.preventDefault();
+                        //ev.preventDefault();
                     } else {
                         ev.returnValue = false;
                     }

@@ -240,14 +240,10 @@ section {
   text-align: center;
 }
 
-
 .main-bio {
   display: inline-block;
   text-align: left;
   margin: 10px;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
 }
 
 .clearfix:after {

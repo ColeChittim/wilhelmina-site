@@ -41,7 +41,7 @@ jQuery(document).ready(function($) {
       
     })
 
-    var owl = $("#owl-testimonials");
+    var owl = $("#owl-music");
 
       owl.owlCarousel({
         

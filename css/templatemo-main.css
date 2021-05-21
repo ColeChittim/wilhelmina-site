@@ -252,7 +252,7 @@ h4, .h4 {
 
 .music-video{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 50px;
 }
 
